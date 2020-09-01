@@ -1,1 +1,1 @@
-eval "$@" && spd-say 'noice' || spd-say 'fuck'
+eval "$@" && for j in {1..3}; do printf '\7'; sleep 0.22; done || for j in {1..6}; do printf '\7'; sleep 0.11; done;
