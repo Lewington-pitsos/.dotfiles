@@ -8,6 +8,7 @@
 
 chmod u+rx ./**/*.sh
 for f in ./**/*.sh; do cp $f /usr/local/bin/`basename $f .sh`; done;
+
 chown lewington:lewington /usr/local/bin/*
 
 exit
